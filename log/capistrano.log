@@ -54,3 +54,43 @@ and the repository exists.
 
 Please make sure you have the correct access rights
 and the repository exists.
+  INFO ---------------------------------------------------------------------------
+  INFO START 2018-06-09 04:17:39 +1000 cap production deploy
+  INFO ---------------------------------------------------------------------------
+  INFO [6f0387f5] Running /usr/bin/env mkdir -p /tmp as Saleh@localhost
+ DEBUG [6f0387f5] Command: /usr/bin/env mkdir -p /tmp
+  INFO [6f0387f5] Finished in 0.308 seconds with exit status 0 (successful).
+ DEBUG Uploading /tmp/git-ssh-my_app_name-production-Saleh.sh 0.0%
+  INFO Uploading /tmp/git-ssh-my_app_name-production-Saleh.sh 100.0%
+  INFO [5af769fe] Running /usr/bin/env chmod 700 /tmp/git-ssh-my_app_name-production-Saleh.sh as Saleh@localhost
+ DEBUG [5af769fe] Command: /usr/bin/env chmod 700 /tmp/git-ssh-my_app_name-production-Saleh.sh
+  INFO [5af769fe] Finished in 0.100 seconds with exit status 0 (successful).
+  INFO [07e8c094] Running /usr/bin/env git ls-remote  HEAD as Saleh@localhost
+ DEBUG [07e8c094] Command: ( export GIT_ASKPASS="/bin/echo" GIT_SSH="/tmp/git-ssh-my_app_name-production-Saleh.sh" ; /usr/bin/env git ls-remote  HEAD )
+ DEBUG [07e8c094] 	fatal: 'HEAD' does not appear to be a git repository
+ DEBUG [07e8c094] 	fatal: Could not read from remote repository.
+
+Please make sure you have the correct access rights
+and the repository exists.
+  INFO ---------------------------------------------------------------------------
+  INFO START 2018-06-09 04:19:08 +1000 cap production deploy
+  INFO ---------------------------------------------------------------------------
+  INFO [b6772c0d] Running /usr/bin/env mkdir -p /tmp as Saleh@localhost
+ DEBUG [b6772c0d] Command: /usr/bin/env mkdir -p /tmp
+  INFO [b6772c0d] Finished in 0.353 seconds with exit status 0 (successful).
+ DEBUG Uploading /tmp/git-ssh-my_app_name-production-Saleh.sh 0.0%
+  INFO Uploading /tmp/git-ssh-my_app_name-production-Saleh.sh 100.0%
+  INFO [3f7c2ca0] Running /usr/bin/env chmod 700 /tmp/git-ssh-my_app_name-production-Saleh.sh as Saleh@localhost
+ DEBUG [3f7c2ca0] Command: /usr/bin/env chmod 700 /tmp/git-ssh-my_app_name-production-Saleh.sh
+  INFO [3f7c2ca0] Finished in 0.101 seconds with exit status 0 (successful).
+  INFO [d891014e] Running /usr/bin/env git ls-remote git@github.com:0xack13/capistranoConfig.git HEAD as Saleh@localhost
+ DEBUG [d891014e] Command: ( export GIT_ASKPASS="/bin/echo" GIT_SSH="/tmp/git-ssh-my_app_name-production-Saleh.sh" ; /usr/bin/env git ls-remote git@github.com:0xack13/capistranoConfig.git HEAD )
+  INFO ---------------------------------------------------------------------------
+  INFO START 2018-06-09 04:42:39 +1000 cap production hello
+  INFO ---------------------------------------------------------------------------
+  INFO ---------------------------------------------------------------------------
+  INFO START 2018-06-09 04:44:17 +1000 cap mysqlserver hello
+  INFO ---------------------------------------------------------------------------
+  INFO ---------------------------------------------------------------------------
+  INFO START 2018-06-09 04:44:44 +1000 cap mysqlserver hellofrommysql
+  INFO ---------------------------------------------------------------------------
