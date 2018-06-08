@@ -1,0 +1,56 @@
+# Logfile created on 2018-06-09 01:41:55 +1000 by logger.rb/56438
+  INFO ---------------------------------------------------------------------------
+  INFO START 2018-06-09 01:41:55 +1000 cap production custom:runcmd
+  INFO ---------------------------------------------------------------------------
+  INFO ---------------------------------------------------------------------------
+  INFO START 2018-06-09 01:52:53 +1000 cap production deploy
+  INFO ---------------------------------------------------------------------------
+  INFO ---------------------------------------------------------------------------
+  INFO START 2018-06-09 02:03:26 +1000 cap production deploy
+  INFO ---------------------------------------------------------------------------
+  INFO [3fd896ec] Running /usr/bin/env mkdir -p /tmp as Saleh@localhost
+ DEBUG [3fd896ec] Command: /usr/bin/env mkdir -p /tmp
+  INFO [3fd896ec] Finished in 0.360 seconds with exit status 0 (successful).
+ DEBUG Uploading /tmp/git-ssh-my_app_name-production-Saleh.sh 0.0%
+  INFO Uploading /tmp/git-ssh-my_app_name-production-Saleh.sh 100.0%
+  INFO [4ad28d9b] Running /usr/bin/env chmod 700 /tmp/git-ssh-my_app_name-production-Saleh.sh as Saleh@localhost
+ DEBUG [4ad28d9b] Command: /usr/bin/env chmod 700 /tmp/git-ssh-my_app_name-production-Saleh.sh
+  INFO [4ad28d9b] Finished in 0.074 seconds with exit status 0 (successful).
+  INFO [13b73b91] Running /usr/bin/env git ls-remote git@example.com:me/my_repo.git HEAD as Saleh@localhost
+ DEBUG [13b73b91] Command: ( export GIT_ASKPASS="/bin/echo" GIT_SSH="/tmp/git-ssh-my_app_name-production-Saleh.sh" ; /usr/bin/env git ls-remote git@example.com:me/my_repo.git HEAD )
+  INFO ---------------------------------------------------------------------------
+  INFO START 2018-06-09 02:23:49 +1000 cap production deploy
+  INFO ---------------------------------------------------------------------------
+  INFO [c1095084] Running /usr/bin/env mkdir -p /tmp as Saleh@localhost
+ DEBUG [c1095084] Command: /usr/bin/env mkdir -p /tmp
+  INFO [c1095084] Finished in 0.253 seconds with exit status 0 (successful).
+ DEBUG Uploading /tmp/git-ssh-my_app_name-production-Saleh.sh 0.0%
+  INFO Uploading /tmp/git-ssh-my_app_name-production-Saleh.sh 100.0%
+  INFO [a22655de] Running /usr/bin/env chmod 700 /tmp/git-ssh-my_app_name-production-Saleh.sh as Saleh@localhost
+ DEBUG [a22655de] Command: /usr/bin/env chmod 700 /tmp/git-ssh-my_app_name-production-Saleh.sh
+  INFO [a22655de] Finished in 0.085 seconds with exit status 0 (successful).
+  INFO [812495c1] Running /usr/bin/env git ls-remote  HEAD as Saleh@localhost
+ DEBUG [812495c1] Command: ( export GIT_ASKPASS="/bin/echo" GIT_SSH="/tmp/git-ssh-my_app_name-production-Saleh.sh" ; /usr/bin/env git ls-remote  HEAD )
+ DEBUG [812495c1] 	fatal: 'HEAD' does not appear to be a git repository
+ DEBUG [812495c1] 	fatal: Could not read from remote repository.
+
+Please make sure you have the correct access rights
+and the repository exists.
+  INFO ---------------------------------------------------------------------------
+  INFO START 2018-06-09 02:24:48 +1000 cap production deploy runcmd:foo
+  INFO ---------------------------------------------------------------------------
+  INFO [c6c04be9] Running /usr/bin/env mkdir -p /tmp as Saleh@localhost
+ DEBUG [c6c04be9] Command: /usr/bin/env mkdir -p /tmp
+  INFO [c6c04be9] Finished in 0.257 seconds with exit status 0 (successful).
+ DEBUG Uploading /tmp/git-ssh-my_app_name-production-Saleh.sh 0.0%
+  INFO Uploading /tmp/git-ssh-my_app_name-production-Saleh.sh 100.0%
+  INFO [e73eaa32] Running /usr/bin/env chmod 700 /tmp/git-ssh-my_app_name-production-Saleh.sh as Saleh@localhost
+ DEBUG [e73eaa32] Command: /usr/bin/env chmod 700 /tmp/git-ssh-my_app_name-production-Saleh.sh
+  INFO [e73eaa32] Finished in 0.077 seconds with exit status 0 (successful).
+  INFO [a246714c] Running /usr/bin/env git ls-remote  HEAD as Saleh@localhost
+ DEBUG [a246714c] Command: ( export GIT_ASKPASS="/bin/echo" GIT_SSH="/tmp/git-ssh-my_app_name-production-Saleh.sh" ; /usr/bin/env git ls-remote  HEAD )
+ DEBUG [a246714c] 	fatal: 'HEAD' does not appear to be a git repository
+ DEBUG [a246714c] 	fatal: Could not read from remote repository.
+
+Please make sure you have the correct access rights
+and the repository exists.
